@@ -1,4 +1,8 @@
-﻿def searchInsert( nums, target):
+﻿# https://leetcode.com/problems/search-insert-position/submissions/
+# бинарный поиск
+
+
+def searchInsert( nums, target):
         current_index = 0
         left_index = 0
         right_index = len(nums)-1
